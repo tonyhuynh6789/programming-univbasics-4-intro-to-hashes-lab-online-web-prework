@@ -11,10 +11,10 @@ def my_hash ()
   }
 end
 
-def pioneer (:name, value)
-  value = "Grace Hopper"
+def pioneer ()
+  
   {
-    name: "value"
+    name: "Grace Hopper"
   }
   
 end
