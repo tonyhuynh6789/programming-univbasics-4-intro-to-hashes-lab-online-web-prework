@@ -1,25 +1,41 @@
-def new_hash
-  # return an empty hash
+def new_hash ()
+  {
+    
+  }
+end 
+
+def my_hash ()
+  {
+    car: "Acura",
+    school: "UW"
+  }
 end
 
-def my_hash
-  # return a valid hash with any key/value pair of your choice
+def pioneer (:name, value)
+  value = "Grace Hopper"
+  {
+    name: "value"
+  }
+  
 end
 
-def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+def id_generator ()
+  {
+    :id => 1
+  }
 end
 
-def id_generator
-  # return a hash with a key :id assigned to positive integer
-end
+def my_hash_creator(name = "Grass Hopper")
 
-def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+  {
+    
+  }
+  
 end
 
 def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
+  
+
 end
 
 def update_counting_hash(hash, key)
