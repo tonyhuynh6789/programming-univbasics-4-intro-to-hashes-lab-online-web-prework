@@ -25,9 +25,7 @@ def id_generator ()
   }
 end
 
-def my_hash_creator(key,value)
-   key = 
-  value = 2
+def my_hash_creator(1,2)
   {
     :1 => 2
   }
