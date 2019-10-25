@@ -34,7 +34,7 @@ end
 def read_from_hash(hash, key)
 hash {
   :name = "Steven"
-  :name = " "
+  'name' => 'Tzvi'
   
 }  
 
