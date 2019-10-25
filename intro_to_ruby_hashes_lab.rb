@@ -25,9 +25,11 @@ def id_generator ()
   }
 end
 
-def my_hash_creator(name = "Grass Hopper")
-
+def my_hash_creator(key,value)
+  key = name 
+  value = "Grace Hopper" 
   {
+    name: "value"
     
   }
   
