@@ -32,7 +32,9 @@ def my_hash_creator(name, value = "Grace Hopper")
 end
 
 def read_from_hash(hash, key)
-{
+hash {
+  :name = "Steven"
+  :name = " "
   
 }  
 
